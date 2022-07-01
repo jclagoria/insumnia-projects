@@ -1,0 +1,31 @@
+_id: req_e83c884f52324b3abb89d0cbd50f8219
+type: Request
+parentId: fld_0aeef3cd95734f47ba7c183488c37c3c
+modified: 1656660682772
+created: 1656660234869
+url: http://localhost:8080/api/v1/customers
+name: Add-New-Customer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"firstName": "test1",
+    	"lastName": "test1",	
+    	"email": "test@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7d58101cd5664af0845337dc6dbd5903
+authentication: {}
+metaSortKey: -1656660234869
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
